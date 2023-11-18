@@ -1,0 +1,427 @@
+@media (max-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .page {
+    /* background-color: aqua; */
+    width: 100%;
+    position: absolute;
+  }
+
+  .project {
+    /* background-color: rgb(9, 152, 81); */
+    width: 98%;
+    /* height: 200vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: hidden;
+  }
+  .logo {
+    /* background-color: brown; */
+    overflow-y: hidden;
+  }
+  
+
+  .navbar {
+    /* background-color: rgb(196, 10, 10); */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .navbarinner {
+    /* background-color: rgb(238, 15, 15); */
+    width: 96%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .logo {
+    /* background-color: rgb(40, 214, 40); */
+    height: 30px;
+  }
+
+  .finddoc {
+    /* background-color: rgb(199, 233, 10); */
+    width: 100%;
+    height: 30px;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .forcordiv {
+    width: 100%;
+    height: 30px;
+    /* background-color: rgb(22, 223, 12); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navsel {
+    font-size: 10px;
+    width: 100px;
+    border: 0px;
+    color: rgb(68, 64, 64);
+  }
+
+  .button {
+    display: none;
+    width: 105px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.515);
+    border-radius: 4px;
+  }
+
+  .button:hover {
+    border: 1px solid aqua;
+    color: aqua;
+  }
+  .locationdiv {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .offer {
+    display: none;
+  }
+  .location {
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    height: 40px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(80, 77, 77, 0.902);
+    align-items: center;
+  }
+  .loca {
+    width: 70px;
+    font-size: 10px;
+  }
+
+  .lensser {
+    width: 19px;
+  }
+  .sera {
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 26px;
+    border: none;
+    padding-right: 5px;
+  }
+
+  .bigimge {
+    width: 100%;
+    height: 130px;
+    background-color: rgb(244, 242, 242);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .fiveitems {
+    width: 100%;
+    height: 110vh;
+    /* background-color: rgb(166, 222, 14); */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+  }
+
+  .text {
+    /* background-color: rgb(43, 226, 52); */
+    width: 180px;
+    height: 100px;
+    flex-direction: column;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .five {
+    /* background-color: aqua; */
+    width: 150px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+  }
+  .head {
+    background-color: rgb(247, 247, 249);
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .sectitle {
+    color: rgb(80, 76, 76);
+  }
+  .topdoctordiv {
+    /* background-color: rgb(186, 22, 22); */
+    width: 100%;
+    height: 80vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .sixitems {
+    /* background-color: blueviolet; */
+    width: 99%;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    align-items: center;
+  }
+  .six6 {
+    /* background-color: aquamarine; */
+    width: 110px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .topdoct {
+    background-color: rgb(253, 253, 253);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .letter {
+    width: 200px;
+    height: 50px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+  }
+  .consult {
+    height: 50px;
+    overflow-y: hidden;
+    font-size: 17px;
+    /* background-color: rgb(0, 255, 0); */
+  }
+  .text {
+    /* background-color: rgb(43, 226, 52); */
+    width: 150px;
+    height: 80px;
+    flex-direction: column;
+    margin-bottom: 30px;
+    overflow-y: hidden;
+  }
+
+  .viewall {
+    font-size: 2px;
+    width: 190px;
+    height: 35px;
+    line-height: 13px;
+    border: 2px solid rgb(20, 184, 220);
+    border-radius: 5px;
+    color: rgb(31, 149, 208);
+    background-color: white;
+    overflow-y: hidden;
+  }
+  .private {
+    display: none;
+  }
+  .viewall {
+    width: 100px;
+    height: 40px;
+    border: 2px solid rgb(20, 184, 220);
+    border-radius: 5px;
+    color: rgb(31, 149, 208);
+    background-color: white;
+    font-size: 14px;
+  }
+  .bookdiv {
+    /* background-color: rgb(207, 241, 12); */
+    width: 100%;
+    height: 99vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+  }
+  .bookitems {
+    /* background-color: rgb(221, 29, 29); */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 150vh;
+  }
+  .lett {
+    /* background-color: yellow; */
+    height: 44px;
+    display: flex;
+    justify-content: center;
+  }
+  .consults {
+    overflow-y: hidden;
+    /* background-color: aqua; */
+    font-size: 16.5px;
+  }
+  .item {
+    /* background-color: coral; */
+    width: 180px;
+    height: 300px;
+    overflow-y: hidden;
+  }
+  .toparticlediv {
+    /* background-color: aquamarine; */
+    width: 95%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .readhead {
+    font-size: 23px;
+    width: 190px;
+    overflow-y: hidden;
+  }
+  .headdetails {
+    /* background-color: rgb(243, 31, 31); */
+    width: 200px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Croissant One", cursive;
+    font-family: "Fuggles", cursive;
+    font-family: "Lato", sans-serif;
+  }
+  .same2 {
+    /* background-color: rgb(187, 255, 0); */
+    width: 45%;
+    height: 290px;
+    font-family: "Croissant One", cursive;
+    font-family: "Fuggles", cursive;
+    font-family: "Lato", sans-serif;
+    overflow-y: hidden;
+  }
+  .same3 {
+    display: none;
+  }
+
+  .autosildediv {
+    /* background-color: rgb(69, 179, 200); */
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Croissant One", cursive;
+    font-family: "Fuggles", cursive;
+    font-family: "Lato", sans-serif;
+  }
+  h1 {
+    font-size: 50px;
+    font-weight: 900;
+  }
+  h5 {
+    font-size: 8px;
+    text-align: center;
+    
+  }
+  .downloadmaindiv {
+    /* background-color: rgb(32, 134, 222); */
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .downloaddiv {
+    background-color: rgb(220, 240, 252);
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Croissant One", cursive;
+    font-family: "Fuggles", cursive;
+    font-family: "Lato", sans-serif;
+  }
+  .downimg {
+    width: 150px;
+  }
+
+  .downloadtext {
+    /* background-color: rgb(220, 35, 35); */
+    width: 90%;
+  }
+  .googleplay {
+    width: 100px;
+  }
+  .Ios {
+    width: 93px;
+  }
+  .sixtitle {
+    overflow-y: hidden;
+  }
+  .lastblue-div {
+    background-color: rgb(20, 20, 120);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: hidden;
+    font-family: "Croissant One", cursive;
+    font-family: "Fuggles", cursive;
+    font-family: "Lato", sans-serif;
+  }
+  .last {
+    /* background-color: aqua; */
+    width: 80px;
+    height: 300px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+  }
+  .last2 {
+    display: none;
+  }
+  .last3 {
+    display: none;
+  }
+  .logolast {
+    /* background-color: aqua; */
+    margin-bottom: 200px;
+    width: 250px;
+    text-align: center;
+  }
+  .fixed {
+    position: fixed;
+    /* width: 100%; */
+    height: 100vh;
+    margin-left:200px;
+    margin-top:65vh;
+  }
+  .fiximg{width: 150px;}
+}
